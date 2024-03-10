@@ -6,11 +6,13 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import { Shop } from './Pages/Shop';
 import React from 'react';
 import  ShopCategory  from './Pages/ShopCategory';
-import { Product } from './Pages/Product';
+import  Product  from './Pages/Product';
 import Footer from './Components/Footer/Footer';
 import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
 import kids_banner from './Components/Assets/banner_kids.png'
+import LoginSignup from './Pages/LoginSignup';
+import Cart from './Pages/Cart';
 
 function App() {
   return (
@@ -25,8 +27,8 @@ function App() {
         <Route path="product" element={<Product/>}>
           <Route path=':productId' element={<Product/>}></Route>
         </Route>
-        <Route path='/cart' element={<cart/>}/>
-        <Route path='/login' element={<loginSignup/>}/>
+        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/login' element={<LoginSignup/>}/>
 
 
       </Routes>
