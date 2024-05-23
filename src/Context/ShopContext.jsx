@@ -34,10 +34,11 @@ const ShopContextProvider=(props)=>{
                 totalAmount += itemInfo.new_price*cartItems[item];
                 
             }
-            return totalAmount;
+            
             
         }
        
+        return totalAmount;
       }
       const getTotalCartItems=()=>{
         let totalItem=0;
@@ -46,8 +47,9 @@ const ShopContextProvider=(props)=>{
                 totalItem+=cartItems[item];
                 console.log(totalItem)
             }
-            return totalItem;
+            
         }
+        return totalItem;
     }
      const contextValue={getTotalCartItems,getTotalCartAmount,all_product,cartItems,addToCart,removeFromCart};
 
