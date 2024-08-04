@@ -30,8 +30,8 @@ const ShopCategory = (props) => {
             return null;
         })}
       </div>
-      <div className="shopcategory-loadmore">
-        Explore More</div>
+      <button className="shopcategory-loadmore">
+        Explore More</button>
     </div>
   )
 }
