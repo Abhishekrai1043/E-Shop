@@ -1,6 +1,6 @@
 import React,{useContext, useRef, useState}from 'react'
 import './Navbar.css'
-import logo from '../Assets/logo.png'
+import logo from '../Assets/logo1.png'
 import cart_icon from '../Assets/cart_icon.png' 
 import { Link} from 'react-router-dom'
 import { ShopContext } from '../../Context/ShopContext'
@@ -9,7 +9,7 @@ const Navbar=()=>{
 
     const [menu,setMenu]=useState("shop");
     
-    const [isRotated, setIsRotated] = useState(false);
+   
 
   
     const {getTotalCartItems}=useContext(ShopContext);
