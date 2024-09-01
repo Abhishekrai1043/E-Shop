@@ -28,7 +28,7 @@
 .nav-logo p{
     color: #ff0000;
     background: linear-gradient(to bottom, #ff1b99, #f146d8);
-    -webkit-background-clip: text; 
+    background-clip: text; 
     color: transparent; 
     font-size: 38px;
     font-weight: 600;
