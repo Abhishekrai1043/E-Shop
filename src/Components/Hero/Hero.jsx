@@ -24,7 +24,7 @@ import hero_image from '../Assets/hero_image.png'
           </div>
         </div>
       <div className="hero-right">
-           <img src={hero_image} alt="" />
+           <img src={hero_image} width={700} height={835} alt="" />
       </div>
     </div> 
   )
